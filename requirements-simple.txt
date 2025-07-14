@@ -1,0 +1,11 @@
+# Simplified requirements for testing
+psycopg2-binary>=2.9.0
+pandas>=2.0.0
+openpyxl>=3.0.0
+schedule>=1.0.0
+python-dotenv>=0.19.0
+imapclient>=2.3.0
+email-validator>=1.0.0
+SQLAlchemy>=2.0.0
+structlog>=23.0.0
+colorlog>=6.0.0 
