@@ -16,6 +16,7 @@ ExecStop=/bin/kill -TERM $MAINPID
 # Environment variables
 Environment=PYTHONPATH=/opt/trackandtrace
 Environment=PYTHONUNBUFFERED=1
+EnvironmentFile=/etc/trackandtrace/config.env
 
 # Restart policy
 Restart=always
